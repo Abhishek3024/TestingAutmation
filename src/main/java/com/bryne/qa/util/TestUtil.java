@@ -10,5 +10,10 @@ public class TestUtil {
 	public static String HOW_CAN_I_EARN_TITLE = "How Can I Earn?";
 	public static String REWARDS_CATALOGUE = "Rewards Catalog";
 	public static String FAQ = "FAQ";
+	public static String SLAB_NAME = "Super Charged";
+	public static String DASHBOARD_SCREEN_TITLE = "Transactions History";
+	
+	public static int NO_OF_ROWS_BEFORE_LOAD_MORE_CLICK = 3;
+	public static int NO_OF_ROWS_AFTER_LOAD_MORE_CLICK = 12;
 	
 }
