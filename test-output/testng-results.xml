@@ -2,23 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-04T11:06:26 IST" name="Default suite" finished-at="2021-07-04T11:06:43 IST" duration-ms="17741">
+  <suite started-at="2021-07-04T17:20:40 IST" name="Default suite" finished-at="2021-07-04T17:20:57 IST" duration-ms="17507">
     <groups>
     </groups>
-    <test started-at="2021-07-04T11:06:26 IST" name="Default test" finished-at="2021-07-04T11:06:43 IST" duration-ms="17741">
+    <test started-at="2021-07-04T17:20:40 IST" name="Default test" finished-at="2021-07-04T17:20:57 IST" duration-ms="17507">
       <class name="com.bryne.qa.testcases.LandingPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@757acd7b]" started-at="2021-07-04T11:06:26 IST" name="setup" finished-at="2021-07-04T11:06:38 IST" duration-ms="12624" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@3943a2be]" started-at="2021-07-04T17:20:40 IST" name="setup" finished-at="2021-07-04T17:20:53 IST" duration-ms="12529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateList()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@757acd7b]" started-at="2021-07-04T11:06:38 IST" name="validateList" finished-at="2021-07-04T11:06:42 IST" duration-ms="3703" status="PASS">
+        <test-method signature="validateCheckYourStatusButtonBehavior()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@3943a2be]" started-at="2021-07-04T17:20:53 IST" name="validateCheckYourStatusButtonBehavior" finished-at="2021-07-04T17:20:57 IST" duration-ms="4904" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateList -->
-        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@757acd7b]" started-at="2021-07-04T11:06:42 IST" name="aftermath" finished-at="2021-07-04T11:06:43 IST" duration-ms="1308" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermath -->
+        </test-method> <!-- validateCheckYourStatusButtonBehavior -->
       </class> <!-- com.bryne.qa.testcases.LandingPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

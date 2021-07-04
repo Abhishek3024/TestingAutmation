@@ -5,8 +5,7 @@
     <classes>
       <class name="com.bryne.qa.testcases.LandingPageTest">
         <methods>
-          <include name="aftermath"/>
-          <include name="validateList"/>
+          <include name="validateCheckYourStatusButtonBehavior"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.bryne.qa.testcases.LandingPageTest -->

@@ -1,5 +1,6 @@
 package com.bryne.qa.testcases;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -10,6 +11,7 @@ import com.bryne.qa.pages.LandingPage;
 import com.bryne.qa.pages.LoginPage;
 import com.bryne.qa.pages.MyInfoPage;
 import com.bryne.qa.pages.OtpPage;
+import com.bryne.qa.util.TestUtil;
 
 public class LandingPageTest extends BaseClass{
 	
@@ -38,11 +40,51 @@ public class LandingPageTest extends BaseClass{
 		otpPage.ClickButton();
 	}
 	
-	@Test
-	public void validateList() {
-		landingPage.validateListofPerks();
+//	@Test
+	public void validatePerksDetailsTest() {
+		
+		Assert.assertEquals(landingPage.ValidatePerksTitle(), TestUtil.PERKS_SECTION_1_TITLE);
+		
+		Assert.assertEquals(landingPage.validateListofPerks(), TestUtil.PERKS_SECTION_1_NO_OF_COL);
 	}
-	@AfterMethod
+	
+//	@Test
+	public void validateDashboardViaLinkTest() {
+		dashboardPage = landingPage.validateDashboardLink();
+	}
+	
+//	@Test
+	public void validateMyInfoViaLinkTest() {
+		myInfoPage = landingPage.validateMyInfoLink();
+	}
+	
+//	@Test
+	public void validateWhatAreBenefitssSection() {
+		Assert.assertEquals(landingPage.ValidateBenefitsTitle(), TestUtil.BENEFITS_TITLE);
+	}
+	
+//	@Test
+	public void validateRewardsCatalogueSection() {
+		Assert.assertEquals(landingPage.ValidateRewardsCatalogueTitle(), TestUtil.REWARDS_CATALOGUE);
+	}
+	
+//	@Test
+	public void validateHowCanIEarnSection() {
+		Assert.assertEquals(landingPage.ValidateHowCanIEarnTitle(), TestUtil.HOW_CAN_I_EARN_TITLE);
+	}
+	
+//	@Test
+	public void validateFAQSectionTest() {
+		Assert.assertEquals(landingPage.ValidateFAQTitle(), TestUtil.FAQ);
+	}
+	
+	@Test
+	public void validateCheckYourStatusButtonBehavior() {
+		landingPage.ValidateDashboardviaButton();
+	
+	}
+	
+//	@AfterMethod
 	public void aftermath() {
 		driver.quit();
 	}

@@ -13,14 +13,30 @@ public class LandingPage extends BaseClass{
 	@FindBy(xpath = "//div[contains(text(),'Welcome, Tomtesting Something! ')]")
 	WebElement usernameText;
 	
-	@FindBy(xpath = "//div[@ng-reflect-router-link='/dashboard']//div//p")
+	@FindBy(xpath = "//div[@ng-reflect-router-link='/dashboard']")
 	WebElement dashboardViaLink;
 	
-	@FindBy(xpath = "//div[@ng-reflect-router-link='/myinfo']//div//p")
+	@FindBy(xpath = "//div[@ng-reflect-router-link='/myinfo']")
 	WebElement myInfoViaLink;
 	
 	@FindBy(xpath = "//h1[contains(text(), 'What is Power Perks?')]")
 	WebElement whatIsPowerPerksText;
+	
+	@FindBy(xpath = "//h1[contains(text(), 'What are the Benefits?')]")
+	WebElement whatAreBenefitsText;
+	
+	@FindBy(xpath = "//h1[contains(text(), 'Rewards Catalog')]")
+	WebElement rewardCataloguesText;
+	
+	@FindBy(xpath = "//h1[contains(text(), 'How Can I Earn?')]")
+	WebElement howCanIEarnText;
+	
+	@FindBy(xpath = "//h1[contains(text(), 'FAQ')]")
+	WebElement FAQText;
+	
+	@FindBy(xpath = "//div[contains(text(), 'Check Your Status')]")
+	WebElement checkyourStatusButton; 
+	
 	
 	@FindBy(xpath = "//h1[contains(text(), 'What is Power Perks?')]/following-sibling::div//div[@class='col-lg-4 p-50']")
 	List<WebElement> listOfPowerPerks;
@@ -52,5 +68,25 @@ public class LandingPage extends BaseClass{
 		return whatIsPowerPerksText.getText();
 	}
 	
+	public String ValidateBenefitsTitle() {
+		return whatAreBenefitsText.getText();
+	}
 	
+	public String ValidateRewardsCatalogueTitle() {
+		return rewardCataloguesText.getText();
+	}
+	
+	public String ValidateHowCanIEarnTitle() {
+		return howCanIEarnText.getText();
+	}
+	
+	public String ValidateFAQTitle() {
+		return FAQText.getText();
+	}
+	
+	public DashboardPage ValidateDashboardviaButton() {
+		checkyourStatusButton.click();
+		
+		return new DashboardPage();
+	}
 }
