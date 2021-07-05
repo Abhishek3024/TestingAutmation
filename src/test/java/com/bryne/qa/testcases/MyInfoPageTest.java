@@ -10,6 +10,7 @@ import com.bryne.qa.pages.LandingPage;
 import com.bryne.qa.pages.LoginPage;
 import com.bryne.qa.pages.MyInfoPage;
 import com.bryne.qa.pages.OtpPage;
+import com.bryne.qa.pages.UpdateDetailsPage;
 import com.bryne.qa.util.TestUtil;
 
 public class MyInfoPageTest extends BaseClass {
@@ -21,6 +22,7 @@ public class MyInfoPageTest extends BaseClass {
 	OtpPage otpPage;
 	LandingPage landingPage;
 	MyInfoPage myInfoPage;
+	UpdateDetailsPage updateDetailPage;
 
 	@BeforeMethod
 	public void setup() {
@@ -36,12 +38,12 @@ public class MyInfoPageTest extends BaseClass {
 		landingPage.validateMyInfoLink();
 	}
 
-//	@Test
+	@Test
 	public void validateTitle() {
 		myInfoPage.getPageTitle();
 	}
 	
-//	@Test
+	@Test
 	public void validateFieldValues() {
 		Assert.assertEquals( myInfoPage.createXPATH("First Name"), TestUtil.FIRSTNAME);
 		Assert.assertEquals( myInfoPage.createXPATH("Last Name"), TestUtil.LASTNAME);
@@ -70,7 +72,9 @@ public class MyInfoPageTest extends BaseClass {
 			e.printStackTrace();
 		}
 		
-		
+		updateDetailPage = new UpdateDetailsPage();
+		Assert.assertTrue(updateDetailPage.updateButtonDetails());
+		Assert.assertTrue(updateDetailPage.cancelButtonDetails());
 	}
 	
 

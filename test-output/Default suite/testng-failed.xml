@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bryne.qa.testcases.MyInfoPageTest">
+      <class name="com.bryne.qa.testcases.UpdateDetailsPageTest">
         <methods>
-          <include name="validateFieldValues"/>
+          <include name="updateStateTest"/>
+          <include name="aftermath"/>
           <include name="setup"/>
+          <include name="updateZipTest"/>
         </methods>
-      </class> <!-- com.bryne.qa.testcases.MyInfoPageTest -->
+      </class> <!-- com.bryne.qa.testcases.UpdateDetailsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

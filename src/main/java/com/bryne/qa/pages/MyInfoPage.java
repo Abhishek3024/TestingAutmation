@@ -9,7 +9,7 @@ import com.bryne.qa.base.BaseClass;
 
 public class MyInfoPage extends BaseClass{
 	
-	@FindBy(xpath = "//div[contains(text(),'Edit My Info')]")
+	@FindBy(xpath = "//div[contains(text(),'Edit My Info')]/parent::div")
 	WebElement editMyInfoButton;
 	
 	public MyInfoPage() {
@@ -35,6 +35,12 @@ public class MyInfoPage extends BaseClass{
 	}
 	
 	public UpdateDetailsPage EditMyInfoButtonClick() {
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		editMyInfoButton.click();
 		
 		return new UpdateDetailsPage();

@@ -35,4 +35,14 @@ public class TestUtil {
 	public static String JOINING_DATE = "March 23, 2021";
 	public static String COMPANYS_CUSTOMER_NUMBER = "NAGU12345"; 
 	public static String COMPANY_NAME = "CAP";
+	
+	public static int NO_OF_DISABLED_DETAILS = 5;
+	public static String COUNTRY_AFTER_SELECT = "USA";
+	public static String U_FIRSTNAME = "Oggy";
+	public static String U_LASTNAME = "Testing";
+	public static String U_BUSINESS_PHONE ="6388834374"; 
+	public static String U_ADDRESS = "Sector 2 ,HSR Layout";
+	public static String U_STATE = "Karnatka"; 
+	public static String U_ZIP = "300001";
+	public static String U_CITY = "Bangalore";
 }
