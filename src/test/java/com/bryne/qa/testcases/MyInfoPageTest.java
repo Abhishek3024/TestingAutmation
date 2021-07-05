@@ -41,7 +41,7 @@ public class MyInfoPageTest extends BaseClass {
 		myInfoPage.getPageTitle();
 	}
 	
-	@Test
+//	@Test
 	public void validateFieldValues() {
 		Assert.assertEquals( myInfoPage.createXPATH("First Name"), TestUtil.FIRSTNAME);
 		Assert.assertEquals( myInfoPage.createXPATH("Last Name"), TestUtil.LASTNAME);
@@ -58,6 +58,21 @@ public class MyInfoPageTest extends BaseClass {
 		Assert.assertEquals( myInfoPage.createXPATH("Company"), TestUtil.COMPANYS_CUSTOMER_NUMBER);
 		Assert.assertEquals( myInfoPage.createXPATH("Company Name"), TestUtil.COMPANY_NAME);
 	}
+	
+	
+	@Test
+	public void validateEditMyInfoButtonFunctionality() {
+		myInfoPage.EditMyInfoButtonClick();
+		
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
 
 //	@AfterMethod
 	public void aftermath() {

@@ -2,11 +2,15 @@ package com.bryne.qa.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.bryne.qa.base.BaseClass;
 
 public class MyInfoPage extends BaseClass{
+	
+	@FindBy(xpath = "//div[contains(text(),'Edit My Info')]")
+	WebElement editMyInfoButton;
 	
 	public MyInfoPage() {
 		PageFactory.initElements(driver, this);
@@ -30,4 +34,9 @@ public class MyInfoPage extends BaseClass{
 		return driver.findElement(By.xpath(beforeXpath+fieldName+AfterXpath)).getText();
 	}
 	
+	public UpdateDetailsPage EditMyInfoButtonClick() {
+		editMyInfoButton.click();
+		
+		return new UpdateDetailsPage();
+	}
 }

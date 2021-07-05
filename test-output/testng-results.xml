@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-05T18:21:17 IST" name="Default suite" finished-at="2021-07-05T18:22:53 IST" duration-ms="96566">
+  <suite started-at="2021-07-05T20:27:15 IST" name="Default suite" finished-at="2021-07-05T20:27:39 IST" duration-ms="23674">
     <groups>
     </groups>
-    <test started-at="2021-07-05T18:21:17 IST" name="Default test" finished-at="2021-07-05T18:22:53 IST" duration-ms="96566">
+    <test started-at="2021-07-05T20:27:15 IST" name="Default test" finished-at="2021-07-05T20:27:39 IST" duration-ms="23674">
       <class name="com.bryne.qa.testcases.MyInfoPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.MyInfoPageTest@11c9af63]" started-at="2021-07-05T18:21:17 IST" name="setup" finished-at="2021-07-05T18:21:42 IST" duration-ms="25486" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.MyInfoPageTest@757acd7b]" started-at="2021-07-05T20:27:15 IST" name="setup" finished-at="2021-07-05T20:27:35 IST" duration-ms="19544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateFieldValues()[pri:0, instance:com.bryne.qa.testcases.MyInfoPageTest@11c9af63]" started-at="2021-07-05T18:21:42 IST" name="validateFieldValues" finished-at="2021-07-05T18:22:53 IST" duration-ms="71009" status="PASS">
+        <test-method signature="validateEditMyInfoButtonFunctionality()[pri:0, instance:com.bryne.qa.testcases.MyInfoPageTest@757acd7b]" started-at="2021-07-05T20:27:35 IST" name="validateEditMyInfoButtonFunctionality" finished-at="2021-07-05T20:27:39 IST" duration-ms="3940" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateFieldValues -->
+        </test-method> <!-- validateEditMyInfoButtonFunctionality -->
       </class> <!-- com.bryne.qa.testcases.MyInfoPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
