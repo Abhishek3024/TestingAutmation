@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.bryne.qa.testcases.MyInfoPageTest"/>
+      <class name="com.bryne.qa.testcases.LoginPageTest"/>
+      <class name="com.bryne.qa.testcases.DashboardPageTest"/>
+      <class name="com.bryne.qa.testcases.OtpPageTest"/>
+      <class name="com.bryne.qa.testcases.LandingPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

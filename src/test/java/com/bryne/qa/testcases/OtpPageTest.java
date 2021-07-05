@@ -42,12 +42,12 @@ public class OtpPageTest extends BaseClass{
 		Assert.assertEquals(landingPage.verifyUserLoggedIn(), "Welcome, Tomtesting Something!");
 	}
 	
-	@Test
+//	@Test
 	public void ResendLinkEnabledafter60sTest() throws InterruptedException {
 		Assert.assertEquals(otpPage.checkResendLinkDisplayed(), true);
 	}
 	
-	@Test
+//	@Test
 	public void ValidateButtonEnabledTest() {
 		boolean beforeOTPfilled = otpPage.checkButtonStatus();
 		System.out.println(beforeOTPfilled);

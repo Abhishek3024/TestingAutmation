@@ -16,4 +16,23 @@ public class TestUtil {
 	public static int NO_OF_ROWS_BEFORE_LOAD_MORE_CLICK = 3;
 	public static int NO_OF_ROWS_AFTER_LOAD_MORE_CLICK = 12;
 	
+	public static int NO_OF_ROWS__IN_REWARDS_CATALOG = 8;
+	
+	public static String REWARDS_BUTTON_TEXT = "Redeem Points";
+	public static String ORDER_PRODUCT_BUTTON_TEXT  = "Order Product";
+	
+	public static String FIRSTNAME = "Tomtesting";
+	public static String LASTNAME = "Something";
+	public static String EMAIL = "tom.testing@gmail.com"; 
+	public static String MOBILE_PHONE = "919986576521";
+	public static String BUSINESS_PHONE ="9901418152"; 
+	public static String ADDRESS = "Sector 2 ,HSR Layout122131";
+	public static String STATE = "Uttar Pradesh"; 
+	public static String ZIP = "123456";
+	public static String CITY = "Varanasi"; 
+	public static String COUNTRY = "India";
+	public static String TYPE_OF_THE_CUSTOMER = "";
+	public static String JOINING_DATE = "March 23, 2021";
+	public static String COMPANYS_CUSTOMER_NUMBER = "NAGU12345"; 
+	public static String COMPANY_NAME = "CAP";
 }

@@ -56,6 +56,12 @@ public class LandingPage extends BaseClass{
 	}
 	
 	public MyInfoPage validateMyInfoLink() {
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		myInfoViaLink.click();
 		return new MyInfoPage();
 	}

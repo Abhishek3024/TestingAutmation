@@ -31,7 +31,7 @@ public class LoginPageTest extends BaseClass{
 		Assert.assertEquals(title, "Login to your account");
 	}
 	
-//	@Test
+	@Test
 	public void LoginLogoTest() {
 		Assert.assertTrue(loginPage.validateLoginPageLogo());
 	}
@@ -41,7 +41,7 @@ public class LoginPageTest extends BaseClass{
 		Assert.assertEquals(loginPage.validateLoginPageSubHeader(), "Email address");
 	}
 	
-	@Test
+//	@Test
 	public void LoginTest() {
 		otpPage = loginPage.login(prop.getProperty("email"));
 		try {

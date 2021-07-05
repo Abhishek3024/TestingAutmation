@@ -40,7 +40,7 @@ public class LandingPageTest extends BaseClass{
 		otpPage.ClickButton();
 	}
 	
-	@Test
+//	@Test
 	public void validatePerksDetailsTest() {
 		
 		Assert.assertEquals(landingPage.ValidatePerksTitle(), TestUtil.PERKS_SECTION_1_TITLE);
@@ -48,7 +48,7 @@ public class LandingPageTest extends BaseClass{
 		Assert.assertEquals(landingPage.validateListofPerks(), TestUtil.PERKS_SECTION_1_NO_OF_COL);
 	}
 	
-	@Test
+//	@Test
 	public void validateDashboardViaLinkTest() {
 		dashboardPage = landingPage.validateDashboardLink();
 	}
@@ -58,34 +58,34 @@ public class LandingPageTest extends BaseClass{
 		myInfoPage = landingPage.validateMyInfoLink();
 	}
 	
-	@Test
+//	@Test
 	public void validateWhatAreBenefitssSection() {
 		Assert.assertEquals(landingPage.ValidateBenefitsTitle(), TestUtil.BENEFITS_TITLE);
 	}
 	
-	@Test
+//	@Test
 	public void validateRewardsCatalogueSection() {
 		Assert.assertEquals(landingPage.ValidateRewardsCatalogueTitle(), TestUtil.REWARDS_CATALOGUE);
 	}
 	
-	@Test
+//	@Test
 	public void validateHowCanIEarnSection() {
 		Assert.assertEquals(landingPage.ValidateHowCanIEarnTitle(), TestUtil.HOW_CAN_I_EARN_TITLE);
 	}
 	
-	@Test
+//	@Test
 	public void validateFAQSectionTest() {
 		Assert.assertEquals(landingPage.ValidateFAQTitle(), TestUtil.FAQ);
 	}
 	
-	@Test
+//	@Test
 	public void validateCheckYourStatusButtonBehavior() {
 		landingPage.ValidateDashboardviaButton();
 		Assert.assertEquals(dashboardPage.getSlabDetails(), TestUtil.SLAB_NAME);
 		Assert.assertEquals(dashboardPage.getTitle(),TestUtil.DASHBOARD_SCREEN_TITLE);
 	}
 
-	@AfterMethod
+//	@AfterMethod
 	public void aftermath() {
 		driver.quit();
 	}
