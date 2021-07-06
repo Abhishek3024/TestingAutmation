@@ -6,16 +6,10 @@
       <class name="com.bryne.qa.testcases.UpdateDetailsPageTest">
         <methods>
           <include name="aftermath"/>
-          <include name="updateAddressTest"/>
+          <include name="updateCountryOfResidenceTest"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.bryne.qa.testcases.UpdateDetailsPageTest -->
-      <class name="com.bryne.qa.testcases.MyInfoPageTest">
-        <methods>
-          <include name="validateFieldValues"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.bryne.qa.testcases.MyInfoPageTest -->
       <class name="com.bryne.qa.testcases.OtpPageTest">
         <methods>
           <include name="aftermath"/>

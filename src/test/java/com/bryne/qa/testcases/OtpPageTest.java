@@ -29,25 +29,29 @@ public class OtpPageTest extends BaseClass{
 	public void setup() {
 		initialization();
 		
-		otpPage = new OtpPage();
+		
 		loginPage = new LoginPage();
-		loginPage.login(prop.getProperty("email"));
+		otpPage = loginPage.login(prop.getProperty("email"));
 	}
 	
-	@Test
+//	@Test
 	public void completeLoginFlowTest() throws InterruptedException {
 		otpPage.EnterOTP(); 
 		landingPage = otpPage.ClickButton();  
 		Thread.sleep(3000);
-		
-		Assert.assertEquals(landingPage.verifyUserLoggedIn(),"Welcome, "+TestUtil.U_FIRSTNAME+" "+TestUtil.U_LASTNAME+"! ");
+		System.out.println(TestUtil.U_FIRSTNAME);
+		Assert.assertEquals(landingPage.verifyUserLoggedIn(),"Welcome, "+TestUtil.U_FIRSTNAME+" "+TestUtil.U_LASTNAME+"!");
 	}
 	
-	@Test
+//	@Test
 	public void ResendLinkEnabledafter60sTest() throws InterruptedException {
 		Assert.assertEquals(otpPage.checkResendLinkDisplayed(), true);
 	}
 	
+	@Test 
+	public void WithoutOTPTest() {
+		System.out.println(otpPage.checkButtonStatus());;
+	}
 	@Test
 	public void ValidateButtonEnabledTest() {
 		boolean beforeOTPfilled = otpPage.checkButtonStatus();

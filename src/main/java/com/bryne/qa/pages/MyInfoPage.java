@@ -38,7 +38,6 @@ public class MyInfoPage extends BaseClass{
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		editMyInfoButton.click();

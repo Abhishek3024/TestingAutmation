@@ -30,14 +30,12 @@ public class LandingPageTest extends BaseClass{
 		initialization();
 		
 		loginPage = new LoginPage();
-		otpPage = new OtpPage();
+		otpPage = loginPage.login(prop.getProperty("email"));
 		dashboardPage = new DashboardPage();
 		myInfoPage = new MyInfoPage();
-		landingPage = new LandingPage();
 		
-		loginPage.login(prop.getProperty("email"));
 		otpPage.EnterOTP();
-		otpPage.ClickButton();
+		landingPage = otpPage.ClickButton();
 	}
 	
 	@Test

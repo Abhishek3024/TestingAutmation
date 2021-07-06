@@ -83,38 +83,28 @@ public class UpdateDetailsPage extends BaseClass {
 		cancelButton.click();
 	}
 	
-	public void updateFirstName(String Firstname) {
-		firstName.clear();
-		firstName.sendKeys(Firstname);
+	
+	public void updateFields(WebElement target, String Value) {
+		target.clear();
+		target.sendKeys(Value);
 	}
 	
-	public void updateLastName(String Lastname) {
-		lastName.clear();
-		lastName.sendKeys(Lastname);
-	}
-	
-	public void updateBusinessPhone(String BusinessPhone) {
-		businessPhone.clear();
-		businessPhone.sendKeys(BusinessPhone);
-	}
-	
-	public void updateAddress(String Address) {
-		address.clear();
-		address.sendKeys(Address);
-	}
-	
-	public void updateState(String State) {
-		state.clear();
-		state.sendKeys(State);
-	}
-	
-	public void updateCity(String City) {
-		city.clear();
-		city.sendKeys(City);
-	}
-	
-	public void updateZip(String Zip) {
-		zip.clear();
-		zip.sendKeys(Zip);
+	public void validateAlldetails(String Firstname, String Lastname, String Businessphone, String Address, String State, String Zip, String City) {
+		updateFields(firstName, Firstname);
+		updateFields(lastName, Lastname);
+		updateFields(businessPhone, Businessphone);
+		updateFields(address, Address);
+		updateFields(state, State);
+		updateFields(zip, Zip);
+		updateFields(city, City);
+		
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		updateButton.click();
 	}
 }

@@ -28,21 +28,17 @@ public class MyInfoPageTest extends BaseClass {
 	public void setup() {
 		initialization();
 		loginPage = new LoginPage();
-		otpPage = new OtpPage();
-		landingPage = new LandingPage();
-		myInfoPage = new MyInfoPage();
-
-		loginPage.login(prop.getProperty("email"));
+		otpPage = loginPage.login(prop.getProperty("email"));
 		otpPage.EnterOTP();
-		otpPage.ClickButton();
-		landingPage.validateMyInfoLink();
+		landingPage = otpPage.ClickButton();
+		myInfoPage = landingPage.validateMyInfoLink(); 
 	}
 
 	@Test
 	public void validateTitle() {
 		myInfoPage.getPageTitle();
 	}
-	
+
 	@Test
 	public void validateFieldValues() {
 		Assert.assertEquals( myInfoPage.createXPATH("First Name"), TestUtil.U_FIRSTNAME);
@@ -60,23 +56,23 @@ public class MyInfoPageTest extends BaseClass {
 		Assert.assertEquals( myInfoPage.createXPATH("Company"), TestUtil.COMPANYS_CUSTOMER_NUMBER);
 		Assert.assertEquals( myInfoPage.createXPATH("Company Name"), TestUtil.COMPANY_NAME);
 	}
-	
-	
+
+
 	@Test
 	public void validateEditMyInfoButtonFunctionality() {
 		myInfoPage.EditMyInfoButtonClick();
-		
+
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
+
 		updateDetailPage = new UpdateDetailsPage();
 		Assert.assertTrue(updateDetailPage.updateButtonDetails());
 		Assert.assertTrue(updateDetailPage.cancelButtonDetails());
 	}
-	
+
 
 	@AfterMethod
 	public void aftermath() {

@@ -10,7 +10,7 @@ import com.bryne.qa.base.BaseClass;
 
 public class LandingPage extends BaseClass{
 
-	@FindBy(xpath = "//div[contains(text(),'Welcome, Tomtesting Something! ')]")
+	@FindBy(xpath = "//div[contains(text(),'Welcome, Oggy Testing! ')]")
 	WebElement usernameText;
 	
 	@FindBy(xpath = "//div[@ng-reflect-router-link='/dashboard']")
