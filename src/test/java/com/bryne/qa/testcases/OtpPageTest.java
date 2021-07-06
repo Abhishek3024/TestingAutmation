@@ -12,6 +12,7 @@ import com.bryne.qa.base.BaseClass;
 import com.bryne.qa.pages.LandingPage;
 import com.bryne.qa.pages.LoginPage;
 import com.bryne.qa.pages.OtpPage;
+import com.bryne.qa.util.TestUtil;
 
 public class OtpPageTest extends BaseClass{
 	
@@ -39,7 +40,7 @@ public class OtpPageTest extends BaseClass{
 		landingPage = otpPage.ClickButton();  
 		Thread.sleep(3000);
 		
-		Assert.assertEquals(landingPage.verifyUserLoggedIn(), "Welcome, Tomtesting Something!");
+		Assert.assertEquals(landingPage.verifyUserLoggedIn(),"Welcome, "+TestUtil.U_FIRSTNAME+" "+TestUtil.U_LASTNAME+"! ");
 	}
 	
 	@Test

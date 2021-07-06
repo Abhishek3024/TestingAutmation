@@ -45,15 +45,15 @@ public class MyInfoPageTest extends BaseClass {
 	
 	@Test
 	public void validateFieldValues() {
-		Assert.assertEquals( myInfoPage.createXPATH("First Name"), TestUtil.FIRSTNAME);
-		Assert.assertEquals( myInfoPage.createXPATH("Last Name"), TestUtil.LASTNAME);
+		Assert.assertEquals( myInfoPage.createXPATH("First Name"), TestUtil.U_FIRSTNAME);
+		Assert.assertEquals( myInfoPage.createXPATH("Last Name"), TestUtil.U_LASTNAME);
 		Assert.assertEquals( myInfoPage.createXPATH("email"), TestUtil.EMAIL);
 		Assert.assertEquals( myInfoPage.createXPATH("Mobile Phone"), TestUtil.MOBILE_PHONE);
-		Assert.assertEquals( myInfoPage.createXPATH("Business Phone"), TestUtil.BUSINESS_PHONE);
-		Assert.assertEquals( myInfoPage.createXPATH("Address"), TestUtil.ADDRESS);
-		Assert.assertEquals( myInfoPage.createXPATH("State"), TestUtil.STATE);
-		Assert.assertEquals( myInfoPage.createXPATH("Zip"), TestUtil.ZIP);
-		Assert.assertEquals( myInfoPage.createXPATH("City"), TestUtil.CITY);
+		Assert.assertEquals( myInfoPage.createXPATH("Business Phone"), TestUtil.U_BUSINESS_PHONE);
+		Assert.assertEquals( myInfoPage.createXPATH("Address"), TestUtil.U_ADDRESS);
+		Assert.assertEquals( myInfoPage.createXPATH("State"), TestUtil.U_STATE);
+		Assert.assertEquals( myInfoPage.createXPATH("Zip"), TestUtil.U_ZIP);
+		Assert.assertEquals( myInfoPage.createXPATH("City"), TestUtil.U_CITY);
 		Assert.assertEquals( myInfoPage.createXPATH("Country"), TestUtil.COUNTRY);
 		Assert.assertEquals( myInfoPage.createXPATH("Type of the customer"), TestUtil.TYPE_OF_THE_CUSTOMER);
 		Assert.assertEquals( myInfoPage.createXPATH("Joining date"), TestUtil.JOINING_DATE);
