@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Bryne Micosite Test Cases</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>29/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>20/2/2</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 06 16:14:27 IST 2021</td>
+<td>Started on:</td><td>Tue Jul 06 22:44:05 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>740 seconds (740111 ms)</td>
+<tr><td>Total time:</td><td>443 seconds (443942 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,6 +68,122 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.setup()'><b>setup</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div _ngcontent-gov-c7=&quot;&quot; class=&quot;toolbarFont mnknav nav-item nav-link pointer&quot; routerlinkactive=&quot;&quot; tabindex=&quot;0&quot; ng-reflect-klass=&quot;toolbarFont mnknav nav-item na&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-router-link=&quot;/myinfo&quot; ng-reflect-router-link-active=&quot;&quot;&gt;...&lt;/div&gt; is not clickable at point (415, 202). Other element would receive the click: &lt;div _ngcontent-gov-c1=&quot;&quot; class=&quot;bg_overlay&quot; id=&quot;divGlobalLoader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CAP-LAP-894&apos;, ip: &apos;192.168.43.230&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Abhishek\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506d7751b579c4ead64ae78ee6cf8d43
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.bryne.qa.pages.LandingPage.validateMyInfoLink(LandingPage.java:65)
+	at com.bryne.qa.testcases.UpdateDetailsPageTest.setup(UpdateDetailsPageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1645578641", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1645578641'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div _ngcontent-gov-c7=&quot;&quot; class=&quot;toolbarFont mnknav nav-item nav-link pointer&quot; routerlinkactive=&quot;&quot; tabindex=&quot;0&quot; ng-reflect-klass=&quot;toolbarFont mnknav nav-item na&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-router-link=&quot;/myinfo&quot; ng-reflect-router-link-active=&quot;&quot;&gt;...&lt;/div&gt; is not clickable at point (415, 202). Other element would receive the click: &lt;div _ngcontent-gov-c1=&quot;&quot; class=&quot;bg_overlay&quot; id=&quot;divGlobalLoader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CAP-LAP-894&apos;, ip: &apos;192.168.43.230&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Abhishek\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506d7751b579c4ead64ae78ee6cf8d43
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.bryne.qa.pages.LandingPage.validateMyInfoLink(LandingPage.java:65)
+	at com.bryne.qa.testcases.UpdateDetailsPageTest.setup(UpdateDetailsPageTest.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>17</td>
+<td>com.bryne.qa.testcases.UpdateDetailsPageTest@378542de</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.setup()'><b>setup</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest</td>
+<td></td>
+<td>-1625592089</td>
+<td>com.bryne.qa.testcases.UpdateDetailsPageTest@378542de</td></tr>
+<tr>
+<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.aftermath()'><b>aftermath</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest</td>
+<td></td>
+<td>-1625592089</td>
+<td>com.bryne.qa.testcases.UpdateDetailsPageTest@378542de</td></tr>
+<tr>
+<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.aftermath()'><b>aftermath</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest</td>
+<td></td>
+<td>-1625592089</td>
+<td>com.bryne.qa.testcases.UpdateDetailsPageTest@378542de</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -75,48 +191,95 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.updateCountryOfResidenceTest()'><b>updateCountryOfResidenceTest</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest</td>
-<td><div><pre>java.lang.AssertionError: Country of Residence is not updating expected [USA] but found [India]
-	at com.bryne.qa.testcases.UpdateDetailsPageTest.updateCountryOfResidenceTest(UpdateDetailsPageTest.java:51)
+<td title='com.bryne.qa.testcases.MyInfoPageTest.validateFieldValues()'><b>validateFieldValues</b><br>Test class: com.bryne.qa.testcases.MyInfoPageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Oggy] but found [Abhishek]
+	at com.bryne.qa.testcases.MyInfoPageTest.validateFieldValues(MyInfoPageTest.java:44)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace818464427", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace818464427'><pre>java.lang.AssertionError: Country of Residence is not updating expected [USA] but found [India]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:575)
-	at com.bryne.qa.testcases.UpdateDetailsPageTest.updateCountryOfResidenceTest(UpdateDetailsPageTest.java:51)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1339507235", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1339507235'><pre>java.lang.AssertionError: expected [Oggy] but found [Abhishek]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at com.bryne.qa.testcases.MyInfoPageTest.validateFieldValues(MyInfoPageTest.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>5</td>
-<td>com.bryne.qa.testcases.UpdateDetailsPageTest@524d6d96</td></tr>
+<td>com.bryne.qa.testcases.MyInfoPageTest@e7edb54</td></tr>
+<tr>
+<td title='com.bryne.qa.testcases.DashboardPageTest.validateTransactionTableBeforeAndAfterLoadMoreClick()'><b>validateTransactionTableBeforeAndAfterLoadMoreClick</b><br>Test class: com.bryne.qa.testcases.DashboardPageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [3] but found [12]
+	at com.bryne.qa.testcases.DashboardPageTest.validateTransactionTableBeforeAndAfterLoadMoreClick(DashboardPageTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace904848961", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace904848961'><pre>java.lang.AssertionError: expected [3] but found [12]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at com.bryne.qa.testcases.DashboardPageTest.validateTransactionTableBeforeAndAfterLoadMoreClick(DashboardPageTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>com.bryne.qa.testcases.DashboardPageTest@74455848</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -129,147 +292,280 @@ function toggleAllBoxes() {
 <td title='com.bryne.qa.testcases.LoginPageTest.LoginLogoTest()'><b>LoginLogoTest</b><br>Test class: com.bryne.qa.testcases.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.bryne.qa.testcases.LoginPageTest@2cdd0d4b</td></tr>
+<td>com.bryne.qa.testcases.LoginPageTest@62230c58</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.LoginPageTest.LoginSubHeaderTest()'><b>LoginSubHeaderTest</b><br>Test class: com.bryne.qa.testcases.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.bryne.qa.testcases.LoginPageTest@2cdd0d4b</td></tr>
+<td>com.bryne.qa.testcases.LoginPageTest@62230c58</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.LoginPageTest.LoginTest()'><b>LoginTest</b><br>Test class: com.bryne.qa.testcases.LoginPageTest</td>
 <td></td>
 <td>3</td>
-<td>com.bryne.qa.testcases.LoginPageTest@2cdd0d4b</td></tr>
+<td>com.bryne.qa.testcases.LoginPageTest@62230c58</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.LoginPageTest.LoginTitleTest()'><b>LoginTitleTest</b><br>Test class: com.bryne.qa.testcases.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.bryne.qa.testcases.LoginPageTest@2cdd0d4b</td></tr>
+<td>com.bryne.qa.testcases.LoginPageTest@62230c58</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.OtpPageTest.ValidateButtonEnabledTest()'><b>ValidateButtonEnabledTest</b><br>Test class: com.bryne.qa.testcases.OtpPageTest</td>
 <td></td>
-<td>3</td>
-<td>com.bryne.qa.testcases.OtpPageTest@7e9131d5</td></tr>
+<td>4</td>
+<td>com.bryne.qa.testcases.OtpPageTest@2cd2a21f</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.OtpPageTest.WithoutOTPTest()'><b>WithoutOTPTest</b><br>Test class: com.bryne.qa.testcases.OtpPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.bryne.qa.testcases.OtpPageTest@7e9131d5</td></tr>
-<tr>
-<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.noOfDisabledItemsTest()'><b>noOfDisabledItemsTest</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest</td>
-<td></td>
-<td>0</td>
-<td>com.bryne.qa.testcases.UpdateDetailsPageTest@524d6d96</td></tr>
-<tr>
-<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.updateAddressTest()'><b>updateAddressTest</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest</td>
-<td></td>
-<td>5</td>
-<td>com.bryne.qa.testcases.UpdateDetailsPageTest@524d6d96</td></tr>
-<tr>
-<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.updateBusinessPhoneTest()'><b>updateBusinessPhoneTest</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest</td>
-<td></td>
-<td>5</td>
-<td>com.bryne.qa.testcases.UpdateDetailsPageTest@524d6d96</td></tr>
-<tr>
-<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.updateCityTest()'><b>updateCityTest</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest</td>
-<td></td>
-<td>5</td>
-<td>com.bryne.qa.testcases.UpdateDetailsPageTest@524d6d96</td></tr>
-<tr>
-<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.updateFirstNameTest()'><b>updateFirstNameTest</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest</td>
-<td></td>
-<td>5</td>
-<td>com.bryne.qa.testcases.UpdateDetailsPageTest@524d6d96</td></tr>
-<tr>
-<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.updateLastNameTest()'><b>updateLastNameTest</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest</td>
-<td></td>
-<td>5</td>
-<td>com.bryne.qa.testcases.UpdateDetailsPageTest@524d6d96</td></tr>
-<tr>
-<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.updateStateTest()'><b>updateStateTest</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest</td>
-<td></td>
-<td>5</td>
-<td>com.bryne.qa.testcases.UpdateDetailsPageTest@524d6d96</td></tr>
-<tr>
-<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.updateZipTest()'><b>updateZipTest</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest</td>
-<td></td>
-<td>5</td>
-<td>com.bryne.qa.testcases.UpdateDetailsPageTest@524d6d96</td></tr>
+<td>com.bryne.qa.testcases.OtpPageTest@2cd2a21f</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.LandingPageTest.validateCheckYourStatusButtonBehavior()'><b>validateCheckYourStatusButtonBehavior</b><br>Test class: com.bryne.qa.testcases.LandingPageTest</td>
 <td></td>
-<td>5</td>
-<td>com.bryne.qa.testcases.LandingPageTest@2e1d27ba</td></tr>
+<td>7</td>
+<td>com.bryne.qa.testcases.LandingPageTest@2e55dd0c</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.LandingPageTest.validateDashboardViaLinkTest()'><b>validateDashboardViaLinkTest</b><br>Test class: com.bryne.qa.testcases.LandingPageTest</td>
 <td></td>
-<td>3</td>
-<td>com.bryne.qa.testcases.LandingPageTest@2e1d27ba</td></tr>
+<td>4</td>
+<td>com.bryne.qa.testcases.LandingPageTest@2e55dd0c</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.MyInfoPageTest.validateEditMyInfoButtonFunctionality()'><b>validateEditMyInfoButtonFunctionality</b><br>Test class: com.bryne.qa.testcases.MyInfoPageTest</td>
 <td></td>
 <td>8</td>
-<td>com.bryne.qa.testcases.MyInfoPageTest@2525ff7e</td></tr>
+<td>com.bryne.qa.testcases.MyInfoPageTest@e7edb54</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.LandingPageTest.validateFAQSectionTest()'><b>validateFAQSectionTest</b><br>Test class: com.bryne.qa.testcases.LandingPageTest</td>
 <td></td>
-<td>2</td>
-<td>com.bryne.qa.testcases.LandingPageTest@2e1d27ba</td></tr>
-<tr>
-<td title='com.bryne.qa.testcases.MyInfoPageTest.validateFieldValues()'><b>validateFieldValues</b><br>Test class: com.bryne.qa.testcases.MyInfoPageTest</td>
-<td></td>
-<td>71</td>
-<td>com.bryne.qa.testcases.MyInfoPageTest@2525ff7e</td></tr>
+<td>3</td>
+<td>com.bryne.qa.testcases.LandingPageTest@2e55dd0c</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.LandingPageTest.validateHowCanIEarnSection()'><b>validateHowCanIEarnSection</b><br>Test class: com.bryne.qa.testcases.LandingPageTest</td>
 <td></td>
 <td>4</td>
-<td>com.bryne.qa.testcases.LandingPageTest@2e1d27ba</td></tr>
+<td>com.bryne.qa.testcases.LandingPageTest@2e55dd0c</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.LandingPageTest.validateMyInfoViaLinkTest()'><b>validateMyInfoViaLinkTest</b><br>Test class: com.bryne.qa.testcases.LandingPageTest</td>
 <td></td>
 <td>5</td>
-<td>com.bryne.qa.testcases.LandingPageTest@2e1d27ba</td></tr>
+<td>com.bryne.qa.testcases.LandingPageTest@2e55dd0c</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.DashboardPageTest.validateOrderButtonBehaviorTest()'><b>validateOrderButtonBehaviorTest</b><br>Test class: com.bryne.qa.testcases.DashboardPageTest</td>
 <td></td>
 <td>4</td>
-<td>com.bryne.qa.testcases.DashboardPageTest@61d6015a</td></tr>
+<td>com.bryne.qa.testcases.DashboardPageTest@74455848</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.LandingPageTest.validatePerksDetailsTest()'><b>validatePerksDetailsTest</b><br>Test class: com.bryne.qa.testcases.LandingPageTest</td>
 <td></td>
 <td>4</td>
-<td>com.bryne.qa.testcases.LandingPageTest@2e1d27ba</td></tr>
+<td>com.bryne.qa.testcases.LandingPageTest@2e55dd0c</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.DashboardPageTest.validateRedeemButtonBehaviorTest()'><b>validateRedeemButtonBehaviorTest</b><br>Test class: com.bryne.qa.testcases.DashboardPageTest</td>
 <td></td>
 <td>6</td>
-<td>com.bryne.qa.testcases.DashboardPageTest@61d6015a</td></tr>
+<td>com.bryne.qa.testcases.DashboardPageTest@74455848</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.LandingPageTest.validateRewardsCatalogueSection()'><b>validateRewardsCatalogueSection</b><br>Test class: com.bryne.qa.testcases.LandingPageTest</td>
 <td></td>
 <td>4</td>
-<td>com.bryne.qa.testcases.LandingPageTest@2e1d27ba</td></tr>
+<td>com.bryne.qa.testcases.LandingPageTest@2e55dd0c</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.DashboardPageTest.validateRewardsTable()'><b>validateRewardsTable</b><br>Test class: com.bryne.qa.testcases.DashboardPageTest</td>
 <td></td>
-<td>2</td>
-<td>com.bryne.qa.testcases.DashboardPageTest@61d6015a</td></tr>
+<td>1</td>
+<td>com.bryne.qa.testcases.DashboardPageTest@74455848</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.MyInfoPageTest.validateTitle()'><b>validateTitle</b><br>Test class: com.bryne.qa.testcases.MyInfoPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.bryne.qa.testcases.MyInfoPageTest@2525ff7e</td></tr>
+<td>com.bryne.qa.testcases.MyInfoPageTest@e7edb54</td></tr>
 <tr>
-<td title='com.bryne.qa.testcases.DashboardPageTest.validateTransactionTableBeforeAndAfterLoadMoreClick()'><b>validateTransactionTableBeforeAndAfterLoadMoreClick</b><br>Test class: com.bryne.qa.testcases.DashboardPageTest</td>
+<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.validateUpdateFieldsTest()'><b>validateUpdateFieldsTest</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest<br>Parameters: Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru</td>
 <td></td>
-<td>3</td>
-<td>com.bryne.qa.testcases.DashboardPageTest@61d6015a</td></tr>
+<td>30</td>
+<td>com.bryne.qa.testcases.UpdateDetailsPageTest@378542de</td></tr>
 <tr>
 <td title='com.bryne.qa.testcases.LandingPageTest.validateWhatAreBenefitssSection()'><b>validateWhatAreBenefitssSection</b><br>Test class: com.bryne.qa.testcases.LandingPageTest</td>
 <td></td>
 <td>3</td>
-<td>com.bryne.qa.testcases.LandingPageTest@2e1d27ba</td></tr>
+<td>com.bryne.qa.testcases.LandingPageTest@2e55dd0c</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.validateUpdateFieldsTest()'><b>validateUpdateFieldsTest</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest<br>Parameters: Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div _ngcontent-gov-c7=&quot;&quot; class=&quot;toolbarFont mnknav nav-item nav-link pointer&quot; routerlinkactive=&quot;&quot; tabindex=&quot;0&quot; ng-reflect-klass=&quot;toolbarFont mnknav nav-item na&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-router-link=&quot;/myinfo&quot; ng-reflect-router-link-active=&quot;&quot;&gt;...&lt;/div&gt; is not clickable at point (415, 202). Other element would receive the click: &lt;div _ngcontent-gov-c1=&quot;&quot; class=&quot;bg_overlay&quot; id=&quot;divGlobalLoader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CAP-LAP-894&apos;, ip: &apos;192.168.43.230&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Abhishek\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506d7751b579c4ead64ae78ee6cf8d43
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.bryne.qa.pages.LandingPage.validateMyInfoLink(LandingPage.java:65)
+	at com.bryne.qa.testcases.UpdateDetailsPageTest.setup(UpdateDetailsPageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace954492773", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace954492773'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div _ngcontent-gov-c7=&quot;&quot; class=&quot;toolbarFont mnknav nav-item nav-link pointer&quot; routerlinkactive=&quot;&quot; tabindex=&quot;0&quot; ng-reflect-klass=&quot;toolbarFont mnknav nav-item na&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-router-link=&quot;/myinfo&quot; ng-reflect-router-link-active=&quot;&quot;&gt;...&lt;/div&gt; is not clickable at point (415, 202). Other element would receive the click: &lt;div _ngcontent-gov-c1=&quot;&quot; class=&quot;bg_overlay&quot; id=&quot;divGlobalLoader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CAP-LAP-894&apos;, ip: &apos;192.168.43.230&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Abhishek\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506d7751b579c4ead64ae78ee6cf8d43
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.bryne.qa.pages.LandingPage.validateMyInfoLink(LandingPage.java:65)
+	at com.bryne.qa.testcases.UpdateDetailsPageTest.setup(UpdateDetailsPageTest.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.bryne.qa.testcases.UpdateDetailsPageTest@378542de</td></tr>
+<tr>
+<td title='com.bryne.qa.testcases.UpdateDetailsPageTest.validateUpdateFieldsTest()'><b>validateUpdateFieldsTest</b><br>Test class: com.bryne.qa.testcases.UpdateDetailsPageTest<br>Parameters: Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div _ngcontent-gov-c7=&quot;&quot; class=&quot;toolbarFont mnknav nav-item nav-link pointer&quot; routerlinkactive=&quot;&quot; tabindex=&quot;0&quot; ng-reflect-klass=&quot;toolbarFont mnknav nav-item na&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-router-link=&quot;/myinfo&quot; ng-reflect-router-link-active=&quot;&quot;&gt;...&lt;/div&gt; is not clickable at point (415, 202). Other element would receive the click: &lt;div _ngcontent-gov-c1=&quot;&quot; class=&quot;bg_overlay&quot; id=&quot;divGlobalLoader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CAP-LAP-894&apos;, ip: &apos;192.168.43.230&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Abhishek\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506d7751b579c4ead64ae78ee6cf8d43
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.bryne.qa.pages.LandingPage.validateMyInfoLink(LandingPage.java:65)
+	at com.bryne.qa.testcases.UpdateDetailsPageTest.setup(UpdateDetailsPageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace694541704", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace694541704'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div _ngcontent-gov-c7=&quot;&quot; class=&quot;toolbarFont mnknav nav-item nav-link pointer&quot; routerlinkactive=&quot;&quot; tabindex=&quot;0&quot; ng-reflect-klass=&quot;toolbarFont mnknav nav-item na&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-router-link=&quot;/myinfo&quot; ng-reflect-router-link-active=&quot;&quot;&gt;...&lt;/div&gt; is not clickable at point (415, 202). Other element would receive the click: &lt;div _ngcontent-gov-c1=&quot;&quot; class=&quot;bg_overlay&quot; id=&quot;divGlobalLoader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CAP-LAP-894&apos;, ip: &apos;192.168.43.230&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Abhishek\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506d7751b579c4ead64ae78ee6cf8d43
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.bryne.qa.pages.LandingPage.validateMyInfoLink(LandingPage.java:65)
+	at com.bryne.qa.testcases.UpdateDetailsPageTest.setup(UpdateDetailsPageTest.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.bryne.qa.testcases.UpdateDetailsPageTest@378542de</td></tr>
 </table><p>
 </body>
 </html>

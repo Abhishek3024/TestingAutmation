@@ -1,17 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+<testng-results ignored="0" total="24" passed="20" failed="2" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-06T22:14:15 IST" name="Default suite" finished-at="2021-07-06T22:17:19 IST" duration-ms="183546">
+  <suite started-at="2021-07-06T22:44:05 IST" name="Bryne Microsite Test Automaton Suite" finished-at="2021-07-06T22:51:29 IST" duration-ms="443942">
     <groups>
     </groups>
-    <test started-at="2021-07-06T22:14:15 IST" name="Default test" finished-at="2021-07-06T22:17:19 IST" duration-ms="183546">
+    <test started-at="2021-07-06T22:44:05 IST" name="Bryne Micosite Test Cases" finished-at="2021-07-06T22:51:29 IST" duration-ms="443942">
+      <class name="com.bryne.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.LoginPageTest@62230c58]" started-at="2021-07-06T22:44:05 IST" name="setup" finished-at="2021-07-06T22:44:16 IST" duration-ms="10819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginLogoTest()[pri:0, instance:com.bryne.qa.testcases.LoginPageTest@62230c58]" started-at="2021-07-06T22:44:16 IST" name="LoginLogoTest" finished-at="2021-07-06T22:44:16 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLogoTest -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.LoginPageTest@62230c58]" started-at="2021-07-06T22:44:16 IST" name="aftermath" finished-at="2021-07-06T22:44:18 IST" duration-ms="1908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.LoginPageTest@62230c58]" started-at="2021-07-06T22:44:18 IST" name="setup" finished-at="2021-07-06T22:44:27 IST" duration-ms="8627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginSubHeaderTest()[pri:0, instance:com.bryne.qa.testcases.LoginPageTest@62230c58]" started-at="2021-07-06T22:44:27 IST" name="LoginSubHeaderTest" finished-at="2021-07-06T22:44:27 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubHeaderTest -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.LoginPageTest@62230c58]" started-at="2021-07-06T22:44:27 IST" name="aftermath" finished-at="2021-07-06T22:44:29 IST" duration-ms="1808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.LoginPageTest@62230c58]" started-at="2021-07-06T22:44:29 IST" name="setup" finished-at="2021-07-06T22:44:37 IST" duration-ms="8566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest()[pri:0, instance:com.bryne.qa.testcases.LoginPageTest@62230c58]" started-at="2021-07-06T22:44:37 IST" name="LoginTest" finished-at="2021-07-06T22:44:41 IST" duration-ms="3437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.LoginPageTest@62230c58]" started-at="2021-07-06T22:44:41 IST" name="aftermath" finished-at="2021-07-06T22:44:43 IST" duration-ms="1719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.LoginPageTest@62230c58]" started-at="2021-07-06T22:44:43 IST" name="setup" finished-at="2021-07-06T22:44:51 IST" duration-ms="8259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTitleTest()[pri:0, instance:com.bryne.qa.testcases.LoginPageTest@62230c58]" started-at="2021-07-06T22:44:51 IST" name="LoginTitleTest" finished-at="2021-07-06T22:44:51 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTitleTest -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.LoginPageTest@62230c58]" started-at="2021-07-06T22:44:51 IST" name="aftermath" finished-at="2021-07-06T22:44:54 IST" duration-ms="3169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+      </class> <!-- com.bryne.qa.testcases.LoginPageTest -->
+      <class name="com.bryne.qa.testcases.MyInfoPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.MyInfoPageTest@e7edb54]" started-at="2021-07-06T22:49:10 IST" name="setup" finished-at="2021-07-06T22:49:26 IST" duration-ms="15537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateEditMyInfoButtonFunctionality()[pri:0, instance:com.bryne.qa.testcases.MyInfoPageTest@e7edb54]" started-at="2021-07-06T22:49:26 IST" name="validateEditMyInfoButtonFunctionality" finished-at="2021-07-06T22:49:34 IST" duration-ms="8456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEditMyInfoButtonFunctionality -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.MyInfoPageTest@e7edb54]" started-at="2021-07-06T22:49:34 IST" name="aftermath" finished-at="2021-07-06T22:49:36 IST" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.MyInfoPageTest@e7edb54]" started-at="2021-07-06T22:49:36 IST" name="setup" finished-at="2021-07-06T22:49:53 IST" duration-ms="16624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateFieldValues()[pri:0, instance:com.bryne.qa.testcases.MyInfoPageTest@e7edb54]" started-at="2021-07-06T22:49:53 IST" name="validateFieldValues" finished-at="2021-07-06T22:49:58 IST" duration-ms="5156" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Oggy] but found [Abhishek]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Oggy] but found [Abhishek]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.bryne.qa.testcases.MyInfoPageTest.validateFieldValues(MyInfoPageTest.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFieldValues -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.MyInfoPageTest@e7edb54]" started-at="2021-07-06T22:49:58 IST" name="aftermath" finished-at="2021-07-06T22:49:59 IST" duration-ms="1218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.MyInfoPageTest@e7edb54]" started-at="2021-07-06T22:49:59 IST" name="setup" finished-at="2021-07-06T22:50:15 IST" duration-ms="15902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateTitle()[pri:0, instance:com.bryne.qa.testcases.MyInfoPageTest@e7edb54]" started-at="2021-07-06T22:50:15 IST" name="validateTitle" finished-at="2021-07-06T22:50:15 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.MyInfoPageTest@e7edb54]" started-at="2021-07-06T22:50:15 IST" name="aftermath" finished-at="2021-07-06T22:50:16 IST" duration-ms="1161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+      </class> <!-- com.bryne.qa.testcases.MyInfoPageTest -->
+      <class name="com.bryne.qa.testcases.OtpPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.OtpPageTest@2cd2a21f]" started-at="2021-07-06T22:44:54 IST" name="setup" finished-at="2021-07-06T22:45:03 IST" duration-ms="9305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateButtonEnabledTest()[pri:0, instance:com.bryne.qa.testcases.OtpPageTest@2cd2a21f]" started-at="2021-07-06T22:45:03 IST" name="ValidateButtonEnabledTest" finished-at="2021-07-06T22:45:08 IST" duration-ms="4598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateButtonEnabledTest -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.OtpPageTest@2cd2a21f]" started-at="2021-07-06T22:45:08 IST" name="aftermath" finished-at="2021-07-06T22:45:09 IST" duration-ms="1483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.OtpPageTest@2cd2a21f]" started-at="2021-07-06T22:45:09 IST" name="setup" finished-at="2021-07-06T22:45:18 IST" duration-ms="8185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="WithoutOTPTest()[pri:0, instance:com.bryne.qa.testcases.OtpPageTest@2cd2a21f]" started-at="2021-07-06T22:45:18 IST" name="WithoutOTPTest" finished-at="2021-07-06T22:45:18 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WithoutOTPTest -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.OtpPageTest@2cd2a21f]" started-at="2021-07-06T22:45:18 IST" name="aftermath" finished-at="2021-07-06T22:45:19 IST" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+      </class> <!-- com.bryne.qa.testcases.OtpPageTest -->
+      <class name="com.bryne.qa.testcases.DashboardPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.DashboardPageTest@74455848]" started-at="2021-07-06T22:47:41 IST" name="setup" finished-at="2021-07-06T22:48:01 IST" duration-ms="19657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateOrderButtonBehaviorTest()[pri:0, instance:com.bryne.qa.testcases.DashboardPageTest@74455848]" started-at="2021-07-06T22:48:01 IST" name="validateOrderButtonBehaviorTest" finished-at="2021-07-06T22:48:06 IST" duration-ms="4878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderButtonBehaviorTest -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.DashboardPageTest@74455848]" started-at="2021-07-06T22:48:06 IST" name="aftermath" finished-at="2021-07-06T22:48:07 IST" duration-ms="1829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.DashboardPageTest@74455848]" started-at="2021-07-06T22:48:07 IST" name="setup" finished-at="2021-07-06T22:48:23 IST" duration-ms="15663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateRedeemButtonBehaviorTest()[pri:0, instance:com.bryne.qa.testcases.DashboardPageTest@74455848]" started-at="2021-07-06T22:48:23 IST" name="validateRedeemButtonBehaviorTest" finished-at="2021-07-06T22:48:30 IST" duration-ms="6439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRedeemButtonBehaviorTest -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.DashboardPageTest@74455848]" started-at="2021-07-06T22:48:30 IST" name="aftermath" finished-at="2021-07-06T22:48:31 IST" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.DashboardPageTest@74455848]" started-at="2021-07-06T22:48:31 IST" name="setup" finished-at="2021-07-06T22:48:48 IST" duration-ms="16839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateRewardsTable()[pri:0, instance:com.bryne.qa.testcases.DashboardPageTest@74455848]" started-at="2021-07-06T22:48:48 IST" name="validateRewardsTable" finished-at="2021-07-06T22:48:50 IST" duration-ms="1940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRewardsTable -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.DashboardPageTest@74455848]" started-at="2021-07-06T22:48:50 IST" name="aftermath" finished-at="2021-07-06T22:48:51 IST" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.DashboardPageTest@74455848]" started-at="2021-07-06T22:48:51 IST" name="setup" finished-at="2021-07-06T22:49:06 IST" duration-ms="14808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateTransactionTableBeforeAndAfterLoadMoreClick()[pri:0, instance:com.bryne.qa.testcases.DashboardPageTest@74455848]" started-at="2021-07-06T22:49:06 IST" name="validateTransactionTableBeforeAndAfterLoadMoreClick" finished-at="2021-07-06T22:49:09 IST" duration-ms="3062" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [3] but found [12]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [3] but found [12]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at com.bryne.qa.testcases.DashboardPageTest.validateTransactionTableBeforeAndAfterLoadMoreClick(DashboardPageTest.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTransactionTableBeforeAndAfterLoadMoreClick -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.DashboardPageTest@74455848]" started-at="2021-07-06T22:49:09 IST" name="aftermath" finished-at="2021-07-06T22:49:10 IST" duration-ms="1152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+      </class> <!-- com.bryne.qa.testcases.DashboardPageTest -->
       <class name="com.bryne.qa.testcases.UpdateDetailsPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@6497b078]" started-at="2021-07-06T22:14:17 IST" name="setup" finished-at="2021-07-06T22:14:43 IST" duration-ms="26327" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@378542de]" started-at="2021-07-06T22:50:17 IST" name="setup" finished-at="2021-07-06T22:50:40 IST" duration-ms="22592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateUpdateFieldsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@6497b078]" started-at="2021-07-06T22:14:43 IST" name="validateUpdateFieldsTest" data-provider="getTestData" finished-at="2021-07-06T22:15:20 IST" duration-ms="36134" status="FAIL">
+        <test-method signature="validateUpdateFieldsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@378542de]" started-at="2021-07-06T22:50:40 IST" name="validateUpdateFieldsTest" data-provider="getTestData" finished-at="2021-07-06T22:51:10 IST" duration-ms="30113" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,61 +301,91 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [300023.0] but found [3000230]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [300023.0] but found [3000230]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at com.bryne.qa.testcases.UpdateDetailsPageTest.validateUpdateFieldsTest(UpdateDetailsPageTest.java:130)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUpdateFieldsTest -->
-        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@6497b078]" started-at="2021-07-06T22:15:20 IST" name="aftermath" finished-at="2021-07-06T22:15:21 IST" duration-ms="1277" status="PASS">
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@378542de]" started-at="2021-07-06T22:51:10 IST" name="aftermath" finished-at="2021-07-06T22:51:11 IST" duration-ms="1305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermath -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@6497b078]" started-at="2021-07-06T22:15:21 IST" name="setup" finished-at="2021-07-06T22:15:43 IST" duration-ms="22223" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@378542de]" started-at="2021-07-06T22:51:11 IST" name="setup" finished-at="2021-07-06T22:51:29 IST" duration-ms="17737" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div _ngcontent-gov-c7="" class="toolbarFont mnknav nav-item nav-link pointer" routerlinkactive="" tabindex="0" ng-reflect-klass="toolbarFont mnknav nav-item na" ng-reflect-ng-class="[object Object]" ng-reflect-router-link="/myinfo" ng-reflect-router-link-active="">...</div> is not clickable at point (415, 202). Other element would receive the click: <div _ngcontent-gov-c1="" class="bg_overlay" id="divGlobalLoader">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CAP-LAP-894', ip: '192.168.43.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Abhishek\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506d7751b579c4ead64ae78ee6cf8d43]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div _ngcontent-gov-c7="" class="toolbarFont mnknav nav-item nav-link pointer" routerlinkactive="" tabindex="0" ng-reflect-klass="toolbarFont mnknav nav-item na" ng-reflect-ng-class="[object Object]" ng-reflect-router-link="/myinfo" ng-reflect-router-link-active="">...</div> is not clickable at point (415, 202). Other element would receive the click: <div _ngcontent-gov-c1="" class="bg_overlay" id="divGlobalLoader">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CAP-LAP-894', ip: '192.168.43.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Abhishek\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506d7751b579c4ead64ae78ee6cf8d43
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at com.bryne.qa.pages.LandingPage.validateMyInfoLink(LandingPage.java:65)
+at com.bryne.qa.testcases.UpdateDetailsPageTest.setup(UpdateDetailsPageTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateUpdateFieldsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@6497b078]" started-at="2021-07-06T22:15:43 IST" name="validateUpdateFieldsTest" data-provider="getTestData" finished-at="2021-07-06T22:16:18 IST" duration-ms="35407" status="FAIL">
+        <test-method signature="validateUpdateFieldsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@378542de]" started-at="2021-07-06T22:51:29 IST" name="validateUpdateFieldsTest" data-provider="getTestData" finished-at="2021-07-06T22:51:29 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -141,61 +423,91 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[expected [300023.0] but found [3000230]]]>
+              <![CDATA[element click intercepted: Element <div _ngcontent-gov-c7="" class="toolbarFont mnknav nav-item nav-link pointer" routerlinkactive="" tabindex="0" ng-reflect-klass="toolbarFont mnknav nav-item na" ng-reflect-ng-class="[object Object]" ng-reflect-router-link="/myinfo" ng-reflect-router-link-active="">...</div> is not clickable at point (415, 202). Other element would receive the click: <div _ngcontent-gov-c1="" class="bg_overlay" id="divGlobalLoader">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CAP-LAP-894', ip: '192.168.43.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Abhishek\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506d7751b579c4ead64ae78ee6cf8d43]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [300023.0] but found [3000230]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at com.bryne.qa.testcases.UpdateDetailsPageTest.validateUpdateFieldsTest(UpdateDetailsPageTest.java:130)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div _ngcontent-gov-c7="" class="toolbarFont mnknav nav-item nav-link pointer" routerlinkactive="" tabindex="0" ng-reflect-klass="toolbarFont mnknav nav-item na" ng-reflect-ng-class="[object Object]" ng-reflect-router-link="/myinfo" ng-reflect-router-link-active="">...</div> is not clickable at point (415, 202). Other element would receive the click: <div _ngcontent-gov-c1="" class="bg_overlay" id="divGlobalLoader">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CAP-LAP-894', ip: '192.168.43.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Abhishek\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506d7751b579c4ead64ae78ee6cf8d43
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at com.bryne.qa.pages.LandingPage.validateMyInfoLink(LandingPage.java:65)
+at com.bryne.qa.testcases.UpdateDetailsPageTest.setup(UpdateDetailsPageTest.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
 at org.testng.SuiteRunner.run(SuiteRunner.java:286)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUpdateFieldsTest -->
-        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@6497b078]" started-at="2021-07-06T22:16:18 IST" name="aftermath" finished-at="2021-07-06T22:16:20 IST" duration-ms="1361" status="PASS">
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@378542de]" started-at="2021-07-06T22:51:29 IST" name="aftermath" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1625592089794" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermath -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@6497b078]" started-at="2021-07-06T22:16:20 IST" name="setup" finished-at="2021-07-06T22:16:42 IST" duration-ms="22687" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@378542de]" started-at="2021-07-06T22:51:29 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1625592089802" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateUpdateFieldsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@6497b078]" started-at="2021-07-06T22:16:42 IST" name="validateUpdateFieldsTest" data-provider="getTestData" finished-at="2021-07-06T22:17:18 IST" duration-ms="35158" status="FAIL">
+        <test-method signature="validateUpdateFieldsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@378542de]" started-at="2021-07-06T22:51:29 IST" name="validateUpdateFieldsTest" data-provider="getTestData" finished-at="2021-07-06T22:51:29 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -233,57 +545,185 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[expected [300023.0] but found [3000230]]]>
+              <![CDATA[element click intercepted: Element <div _ngcontent-gov-c7="" class="toolbarFont mnknav nav-item nav-link pointer" routerlinkactive="" tabindex="0" ng-reflect-klass="toolbarFont mnknav nav-item na" ng-reflect-ng-class="[object Object]" ng-reflect-router-link="/myinfo" ng-reflect-router-link-active="">...</div> is not clickable at point (415, 202). Other element would receive the click: <div _ngcontent-gov-c1="" class="bg_overlay" id="divGlobalLoader">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CAP-LAP-894', ip: '192.168.43.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Abhishek\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506d7751b579c4ead64ae78ee6cf8d43]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [300023.0] but found [3000230]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at com.bryne.qa.testcases.UpdateDetailsPageTest.validateUpdateFieldsTest(UpdateDetailsPageTest.java:130)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div _ngcontent-gov-c7="" class="toolbarFont mnknav nav-item nav-link pointer" routerlinkactive="" tabindex="0" ng-reflect-klass="toolbarFont mnknav nav-item na" ng-reflect-ng-class="[object Object]" ng-reflect-router-link="/myinfo" ng-reflect-router-link-active="">...</div> is not clickable at point (415, 202). Other element would receive the click: <div _ngcontent-gov-c1="" class="bg_overlay" id="divGlobalLoader">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CAP-LAP-894', ip: '192.168.43.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Abhishek\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506d7751b579c4ead64ae78ee6cf8d43
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at com.bryne.qa.pages.LandingPage.validateMyInfoLink(LandingPage.java:65)
+at com.bryne.qa.testcases.UpdateDetailsPageTest.setup(UpdateDetailsPageTest.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
 at org.testng.SuiteRunner.run(SuiteRunner.java:286)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUpdateFieldsTest -->
-        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@6497b078]" started-at="2021-07-06T22:17:18 IST" name="aftermath" finished-at="2021-07-06T22:17:19 IST" duration-ms="1309" status="PASS">
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.UpdateDetailsPageTest@378542de]" started-at="2021-07-06T22:51:29 IST" name="aftermath" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1625592089825" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermath -->
       </class> <!-- com.bryne.qa.testcases.UpdateDetailsPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.bryne.qa.testcases.LandingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:45:19 IST" name="setup" finished-at="2021-07-06T22:45:29 IST" duration-ms="9936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateCheckYourStatusButtonBehavior()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:45:29 IST" name="validateCheckYourStatusButtonBehavior" finished-at="2021-07-06T22:45:37 IST" duration-ms="7536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckYourStatusButtonBehavior -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:45:37 IST" name="aftermath" finished-at="2021-07-06T22:45:39 IST" duration-ms="2064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:45:39 IST" name="setup" finished-at="2021-07-06T22:45:50 IST" duration-ms="11265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateDashboardViaLinkTest()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:45:50 IST" name="validateDashboardViaLinkTest" finished-at="2021-07-06T22:45:54 IST" duration-ms="4026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDashboardViaLinkTest -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:45:54 IST" name="aftermath" finished-at="2021-07-06T22:45:56 IST" duration-ms="1547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:45:56 IST" name="setup" finished-at="2021-07-06T22:46:07 IST" duration-ms="11382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateFAQSectionTest()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:46:07 IST" name="validateFAQSectionTest" finished-at="2021-07-06T22:46:10 IST" duration-ms="3332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFAQSectionTest -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:46:10 IST" name="aftermath" finished-at="2021-07-06T22:46:12 IST" duration-ms="1569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:46:12 IST" name="setup" finished-at="2021-07-06T22:46:24 IST" duration-ms="11965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateHowCanIEarnSection()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:46:24 IST" name="validateHowCanIEarnSection" finished-at="2021-07-06T22:46:28 IST" duration-ms="4528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHowCanIEarnSection -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:46:28 IST" name="aftermath" finished-at="2021-07-06T22:46:30 IST" duration-ms="1341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:46:30 IST" name="setup" finished-at="2021-07-06T22:46:41 IST" duration-ms="11091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateMyInfoViaLinkTest()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:46:41 IST" name="validateMyInfoViaLinkTest" finished-at="2021-07-06T22:46:47 IST" duration-ms="5939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyInfoViaLinkTest -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:46:47 IST" name="aftermath" finished-at="2021-07-06T22:46:48 IST" duration-ms="1478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:46:48 IST" name="setup" finished-at="2021-07-06T22:46:59 IST" duration-ms="11274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatePerksDetailsTest()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:46:59 IST" name="validatePerksDetailsTest" finished-at="2021-07-06T22:47:04 IST" duration-ms="4548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePerksDetailsTest -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:47:04 IST" name="aftermath" finished-at="2021-07-06T22:47:06 IST" duration-ms="1901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:47:06 IST" name="setup" finished-at="2021-07-06T22:47:18 IST" duration-ms="12051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateRewardsCatalogueSection()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:47:18 IST" name="validateRewardsCatalogueSection" finished-at="2021-07-06T22:47:22 IST" duration-ms="4267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRewardsCatalogueSection -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:47:22 IST" name="aftermath" finished-at="2021-07-06T22:47:24 IST" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:47:24 IST" name="setup" finished-at="2021-07-06T22:47:36 IST" duration-ms="11948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateWhatAreBenefitssSection()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:47:36 IST" name="validateWhatAreBenefitssSection" finished-at="2021-07-06T22:47:39 IST" duration-ms="3633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWhatAreBenefitssSection -->
+        <test-method is-config="true" signature="aftermath()[pri:0, instance:com.bryne.qa.testcases.LandingPageTest@2e55dd0c]" started-at="2021-07-06T22:47:39 IST" name="aftermath" finished-at="2021-07-06T22:47:41 IST" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermath -->
+      </class> <!-- com.bryne.qa.testcases.LandingPageTest -->
+    </test> <!-- Bryne Micosite Test Cases -->
+  </suite> <!-- Bryne Microsite Test Automaton Suite -->
 </testng-results>

@@ -41,12 +41,12 @@ public class UpdateDetailsPageTest extends BaseClass{
 		
 	}
 	
-//	@Test
+	@Test
 	public void noOfDisabledItemsTest() {
 		Assert.assertEquals(updateDetailsPage.getAllDisabledDetails(), TestUtil.NO_OF_DISABLED_DETAILS);
 	}
 	
-//	@Test
+	@Test
 	public void updateCountryOfResidenceTest() {
 		updateDetailsPage.handleCountryOfResidenceSelect(TestUtil.COUNTRY_AFTER_SELECT);
 		updateDetailsPage.clickupdateButton();

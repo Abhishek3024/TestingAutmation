@@ -5,7 +5,8 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -23,8 +24,9 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+            <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Bryne Microsite Test Automaton Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Abhishek\AppData\Local\Temp\testng-eclipse-455425210\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Bryne_Microsite_Test_Automaton_Suite" class="navigator-link ">
+                    <span>C:\Users\Abhishek\eclipse-workspace\bryneMicrositeTest\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Bryne_Microsite_Test_Automaton_Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Bryne_Microsite_Test_Automaton_Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Bryne_Microsite_Test_Automaton_Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Bryne_Microsite_Test_Automaton_Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Bryne_Microsite_Test_Automaton_Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Bryne_Microsite_Test_Automaton_Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,31 +93,154 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 3 failed,   </span>
+                    <span class="method-stats">24 methods, 2 failed,  2 skipped,  20 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
                     <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" class="hide-methods failed suite-Bryne_Microsite_Test_Automaton_Suite"> (hide)</a> <!-- hide-methods failed suite-Bryne_Microsite_Test_Automaton_Suite -->
+                      <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" class="show-methods failed suite-Bryne_Microsite_Test_Automaton_Suite"> (show)</a> <!-- show-methods failed suite-Bryne_Microsite_Test_Automaton_Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content failed suite-Bryne_Microsite_Test_Automaton_Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.bryne.qa.testcases.UpdateDetailsPageTest" class="method navigator-link" hash-for-method="validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)">validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.MyInfoPageTest" class="method navigator-link" hash-for-method="validateFieldValues">validateFieldValues</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.bryne.qa.testcases.UpdateDetailsPageTest" class="method navigator-link" hash-for-method="validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)">validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.DashboardPageTest" class="method navigator-link" hash-for-method="validateTransactionTableBeforeAndAfterLoadMoreClick">validateTransactionTableBeforeAndAfterLoadMoreClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Bryne_Microsite_Test_Automaton_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" class="hide-methods skipped suite-Bryne_Microsite_Test_Automaton_Suite"> (hide)</a> <!-- hide-methods skipped suite-Bryne_Microsite_Test_Automaton_Suite -->
+                      <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" class="show-methods skipped suite-Bryne_Microsite_Test_Automaton_Suite"> (show)</a> <!-- show-methods skipped suite-Bryne_Microsite_Test_Automaton_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Bryne_Microsite_Test_Automaton_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.UpdateDetailsPageTest" class="method navigator-link" hash-for-method="validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)">validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.bryne.qa.testcases.UpdateDetailsPageTest" class="method navigator-link" hash-for-method="validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)">validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.UpdateDetailsPageTest" class="method navigator-link" hash-for-method="validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)">validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    </div> <!-- method-list-content skipped suite-Bryne_Microsite_Test_Automaton_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" class="hide-methods passed suite-Bryne_Microsite_Test_Automaton_Suite"> (hide)</a> <!-- hide-methods passed suite-Bryne_Microsite_Test_Automaton_Suite -->
+                      <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" class="show-methods passed suite-Bryne_Microsite_Test_Automaton_Suite"> (show)</a> <!-- show-methods passed suite-Bryne_Microsite_Test_Automaton_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Bryne_Microsite_Test_Automaton_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginLogoTest">LoginLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginSubHeaderTest">LoginSubHeaderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginTest">LoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginTitleTest">LoginTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.OtpPageTest" class="method navigator-link" hash-for-method="ValidateButtonEnabledTest">ValidateButtonEnabledTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.OtpPageTest" class="method navigator-link" hash-for-method="WithoutOTPTest">WithoutOTPTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.LandingPageTest" class="method navigator-link" hash-for-method="validateCheckYourStatusButtonBehavior">validateCheckYourStatusButtonBehavior</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.LandingPageTest" class="method navigator-link" hash-for-method="validateDashboardViaLinkTest">validateDashboardViaLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.MyInfoPageTest" class="method navigator-link" hash-for-method="validateEditMyInfoButtonFunctionality">validateEditMyInfoButtonFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.LandingPageTest" class="method navigator-link" hash-for-method="validateFAQSectionTest">validateFAQSectionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.LandingPageTest" class="method navigator-link" hash-for-method="validateHowCanIEarnSection">validateHowCanIEarnSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.LandingPageTest" class="method navigator-link" hash-for-method="validateMyInfoViaLinkTest">validateMyInfoViaLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.DashboardPageTest" class="method navigator-link" hash-for-method="validateOrderButtonBehaviorTest">validateOrderButtonBehaviorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.LandingPageTest" class="method navigator-link" hash-for-method="validatePerksDetailsTest">validatePerksDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.DashboardPageTest" class="method navigator-link" hash-for-method="validateRedeemButtonBehaviorTest">validateRedeemButtonBehaviorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.LandingPageTest" class="method navigator-link" hash-for-method="validateRewardsCatalogueSection">validateRewardsCatalogueSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.DashboardPageTest" class="method navigator-link" hash-for-method="validateRewardsTable">validateRewardsTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.MyInfoPageTest" class="method navigator-link" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.UpdateDetailsPageTest" class="method navigator-link" hash-for-method="validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)">validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" title="com.bryne.qa.testcases.LandingPageTest" class="method navigator-link" hash-for-method="validateWhatAreBenefitssSection">validateWhatAreBenefitssSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Bryne_Microsite_Test_Automaton_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -126,10 +251,50 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+        <div panel-name="suite-Bryne_Microsite_Test_Automaton_Suite" class="panel Bryne_Microsite_Test_Automaton_Suite">
+          <div class="suite-Bryne_Microsite_Test_Automaton_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">com.bryne.qa.testcases.MyInfoPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFieldValues">
+                  </a> <!-- validateFieldValues -->
+                  <span class="method-name">validateFieldValues</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Oggy] but found [Abhishek]
+	at com.bryne.qa.testcases.MyInfoPageTest.validateFieldValues(MyInfoPageTest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bryne_Microsite_Test_Automaton_Suite-class-failed -->
+          <div class="suite-Bryne_Microsite_Test_Automaton_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bryne.qa.testcases.DashboardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTransactionTableBeforeAndAfterLoadMoreClick">
+                  </a> <!-- validateTransactionTableBeforeAndAfterLoadMoreClick -->
+                  <span class="method-name">validateTransactionTableBeforeAndAfterLoadMoreClick</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [3] but found [12]
+	at com.bryne.qa.testcases.DashboardPageTest.validateTransactionTableBeforeAndAfterLoadMoreClick(DashboardPageTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bryne_Microsite_Test_Automaton_Suite-class-failed -->
+          <div class="suite-Bryne_Microsite_Test_Automaton_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
               <span class="class-name">com.bryne.qa.testcases.UpdateDetailsPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -139,42 +304,27 @@
                   </a> <!-- validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru) -->
                   <span class="method-name">validateUpdateFieldsTest</span>
                   <span class="parameters">(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [300023.0] but found [3000230]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:575)
-	at org.testng.Assert.assertEquals(Assert.java:585)
-	at com.bryne.qa.testcases.UpdateDetailsPageTest.validateUpdateFieldsTest(UpdateDetailsPageTest.java:130)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div _ngcontent-gov-c7=&quot;&quot; class=&quot;toolbarFont mnknav nav-item nav-link pointer&quot; routerlinkactive=&quot;&quot; tabindex=&quot;0&quot; ng-reflect-klass=&quot;toolbarFont mnknav nav-item na&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-router-link=&quot;/myinfo&quot; ng-reflect-router-link-active=&quot;&quot;&gt;...&lt;/div&gt; is not clickable at point (415, 202). Other element would receive the click: &lt;div _ngcontent-gov-c1=&quot;&quot; class=&quot;bg_overlay&quot; id=&quot;divGlobalLoader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CAP-LAP-894&apos;, ip: &apos;192.168.43.230&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Abhishek\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506d7751b579c4ead64ae78ee6cf8d43
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.bryne.qa.pages.LandingPage.validateMyInfoLink(LandingPage.java:65)
+	at com.bryne.qa.testcases.UpdateDetailsPageTest.setup(UpdateDetailsPageTest.java:39)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
+... Removed 39 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -184,233 +334,722 @@
                   </a> <!-- validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru) -->
                   <span class="method-name">validateUpdateFieldsTest</span>
                   <span class="parameters">(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [300023.0] but found [3000230]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:575)
-	at org.testng.Assert.assertEquals(Assert.java:585)
-	at com.bryne.qa.testcases.UpdateDetailsPageTest.validateUpdateFieldsTest(UpdateDetailsPageTest.java:130)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div _ngcontent-gov-c7=&quot;&quot; class=&quot;toolbarFont mnknav nav-item nav-link pointer&quot; routerlinkactive=&quot;&quot; tabindex=&quot;0&quot; ng-reflect-klass=&quot;toolbarFont mnknav nav-item na&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-router-link=&quot;/myinfo&quot; ng-reflect-router-link-active=&quot;&quot;&gt;...&lt;/div&gt; is not clickable at point (415, 202). Other element would receive the click: &lt;div _ngcontent-gov-c1=&quot;&quot; class=&quot;bg_overlay&quot; id=&quot;divGlobalLoader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CAP-LAP-894&apos;, ip: &apos;192.168.43.230&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Abhishek\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506d7751b579c4ead64ae78ee6cf8d43
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.bryne.qa.pages.LandingPage.validateMyInfoLink(LandingPage.java:65)
+	at com.bryne.qa.testcases.UpdateDetailsPageTest.setup(UpdateDetailsPageTest.java:39)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)">
-                  </a> <!-- validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru) -->
-                  <span class="method-name">validateUpdateFieldsTest</span>
-                  <span class="parameters">(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [300023.0] but found [3000230]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:575)
-	at org.testng.Assert.assertEquals(Assert.java:585)
-	at com.bryne.qa.testcases.UpdateDetailsPageTest.validateUpdateFieldsTest(UpdateDetailsPageTest.java:130)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
+... Removed 39 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Bryne_Microsite_Test_Automaton_Suite-class-skipped -->
+          <div class="suite-Bryne_Microsite_Test_Automaton_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bryne.qa.testcases.LandingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCheckYourStatusButtonBehavior">
+                  </a> <!-- validateCheckYourStatusButtonBehavior -->
+                  <span class="method-name">validateCheckYourStatusButtonBehavior</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDashboardViaLinkTest">
+                  </a> <!-- validateDashboardViaLinkTest -->
+                  <span class="method-name">validateDashboardViaLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFAQSectionTest">
+                  </a> <!-- validateFAQSectionTest -->
+                  <span class="method-name">validateFAQSectionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHowCanIEarnSection">
+                  </a> <!-- validateHowCanIEarnSection -->
+                  <span class="method-name">validateHowCanIEarnSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateMyInfoViaLinkTest">
+                  </a> <!-- validateMyInfoViaLinkTest -->
+                  <span class="method-name">validateMyInfoViaLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePerksDetailsTest">
+                  </a> <!-- validatePerksDetailsTest -->
+                  <span class="method-name">validatePerksDetailsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRewardsCatalogueSection">
+                  </a> <!-- validateRewardsCatalogueSection -->
+                  <span class="method-name">validateRewardsCatalogueSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateWhatAreBenefitssSection">
+                  </a> <!-- validateWhatAreBenefitssSection -->
+                  <span class="method-name">validateWhatAreBenefitssSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bryne_Microsite_Test_Automaton_Suite-class-passed -->
+          <div class="suite-Bryne_Microsite_Test_Automaton_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bryne.qa.testcases.MyInfoPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEditMyInfoButtonFunctionality">
+                  </a> <!-- validateEditMyInfoButtonFunctionality -->
+                  <span class="method-name">validateEditMyInfoButtonFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTitle">
+                  </a> <!-- validateTitle -->
+                  <span class="method-name">validateTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bryne_Microsite_Test_Automaton_Suite-class-passed -->
+          <div class="suite-Bryne_Microsite_Test_Automaton_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bryne.qa.testcases.DashboardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateOrderButtonBehaviorTest">
+                  </a> <!-- validateOrderButtonBehaviorTest -->
+                  <span class="method-name">validateOrderButtonBehaviorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRedeemButtonBehaviorTest">
+                  </a> <!-- validateRedeemButtonBehaviorTest -->
+                  <span class="method-name">validateRedeemButtonBehaviorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRewardsTable">
+                  </a> <!-- validateRewardsTable -->
+                  <span class="method-name">validateRewardsTable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bryne_Microsite_Test_Automaton_Suite-class-passed -->
+          <div class="suite-Bryne_Microsite_Test_Automaton_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bryne.qa.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginLogoTest">
+                  </a> <!-- LoginLogoTest -->
+                  <span class="method-name">LoginLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubHeaderTest">
+                  </a> <!-- LoginSubHeaderTest -->
+                  <span class="method-name">LoginSubHeaderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest">
+                  </a> <!-- LoginTest -->
+                  <span class="method-name">LoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTitleTest">
+                  </a> <!-- LoginTitleTest -->
+                  <span class="method-name">LoginTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bryne_Microsite_Test_Automaton_Suite-class-passed -->
+          <div class="suite-Bryne_Microsite_Test_Automaton_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bryne.qa.testcases.OtpPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateButtonEnabledTest">
+                  </a> <!-- ValidateButtonEnabledTest -->
+                  <span class="method-name">ValidateButtonEnabledTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WithoutOTPTest">
+                  </a> <!-- WithoutOTPTest -->
+                  <span class="method-name">WithoutOTPTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bryne_Microsite_Test_Automaton_Suite-class-passed -->
+          <div class="suite-Bryne_Microsite_Test_Automaton_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bryne.qa.testcases.UpdateDetailsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)">
+                  </a> <!-- validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru) -->
+                  <span class="method-name">validateUpdateFieldsTest</span>
+                  <span class="parameters">(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bryne_Microsite_Test_Automaton_Suite-class-passed -->
+        </div> <!-- panel Bryne_Microsite_Test_Automaton_Suite -->
+        <div panel-name="test-xml-Bryne_Microsite_Test_Automaton_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Abhishek\AppData\Local\Temp\testng-eclipse-455425210\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Abhishek\eclipse-workspace\bryneMicrositeTest\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Bryne Microsite Test Automaton Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.bryne.ExtentReportListener.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Bryne Micosite Test Cases&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.bryne.qa.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.bryne.qa.testcases.OtpPageTest&quot;/&gt;
+      &lt;class name=&quot;com.bryne.qa.testcases.LandingPageTest&quot;/&gt;
+      &lt;class name=&quot;com.bryne.qa.testcases.DashboardPageTest&quot;/&gt;
+      &lt;class name=&quot;com.bryne.qa.testcases.MyInfoPageTest&quot;/&gt;
       &lt;class name=&quot;com.bryne.qa.testcases.UpdateDetailsPageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Bryne Micosite Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Bryne Microsite Test Automaton Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Bryne_Microsite_Test_Automaton_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Bryne Microsite Test Automaton Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Bryne Micosite Test Cases (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Bryne_Microsite_Test_Automaton_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Bryne Microsite Test Automaton Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Bryne_Microsite_Test_Automaton_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Bryne Microsite Test Automaton Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Bryne_Microsite_Test_Automaton_Suite');
+function tableData_Bryne_Microsite_Test_Automaton_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(24);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateUpdateFieldsTest')
 data.setCell(0, 2, 'com.bryne.qa.testcases.UpdateDetailsPageTest')
-data.setCell(0, 3, 36134);
+data.setCell(0, 3, 30113);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateUpdateFieldsTest')
-data.setCell(1, 2, 'com.bryne.qa.testcases.UpdateDetailsPageTest')
-data.setCell(1, 3, 35407);
+data.setCell(1, 1, 'validateEditMyInfoButtonFunctionality')
+data.setCell(1, 2, 'com.bryne.qa.testcases.MyInfoPageTest')
+data.setCell(1, 3, 8456);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateUpdateFieldsTest')
-data.setCell(2, 2, 'com.bryne.qa.testcases.UpdateDetailsPageTest')
-data.setCell(2, 3, 35158);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(2, 1, 'validateCheckYourStatusButtonBehavior')
+data.setCell(2, 2, 'com.bryne.qa.testcases.LandingPageTest')
+data.setCell(2, 3, 7536);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateRedeemButtonBehaviorTest')
+data.setCell(3, 2, 'com.bryne.qa.testcases.DashboardPageTest')
+data.setCell(3, 3, 6439);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateMyInfoViaLinkTest')
+data.setCell(4, 2, 'com.bryne.qa.testcases.LandingPageTest')
+data.setCell(4, 3, 5939);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateFieldValues')
+data.setCell(5, 2, 'com.bryne.qa.testcases.MyInfoPageTest')
+data.setCell(5, 3, 5156);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateOrderButtonBehaviorTest')
+data.setCell(6, 2, 'com.bryne.qa.testcases.DashboardPageTest')
+data.setCell(6, 3, 4878);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ValidateButtonEnabledTest')
+data.setCell(7, 2, 'com.bryne.qa.testcases.OtpPageTest')
+data.setCell(7, 3, 4598);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validatePerksDetailsTest')
+data.setCell(8, 2, 'com.bryne.qa.testcases.LandingPageTest')
+data.setCell(8, 3, 4548);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateHowCanIEarnSection')
+data.setCell(9, 2, 'com.bryne.qa.testcases.LandingPageTest')
+data.setCell(9, 3, 4528);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateRewardsCatalogueSection')
+data.setCell(10, 2, 'com.bryne.qa.testcases.LandingPageTest')
+data.setCell(10, 3, 4267);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateDashboardViaLinkTest')
+data.setCell(11, 2, 'com.bryne.qa.testcases.LandingPageTest')
+data.setCell(11, 3, 4026);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateWhatAreBenefitssSection')
+data.setCell(12, 2, 'com.bryne.qa.testcases.LandingPageTest')
+data.setCell(12, 3, 3633);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'LoginTest')
+data.setCell(13, 2, 'com.bryne.qa.testcases.LoginPageTest')
+data.setCell(13, 3, 3437);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateFAQSectionTest')
+data.setCell(14, 2, 'com.bryne.qa.testcases.LandingPageTest')
+data.setCell(14, 3, 3332);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateTransactionTableBeforeAndAfterLoadMoreClick')
+data.setCell(15, 2, 'com.bryne.qa.testcases.DashboardPageTest')
+data.setCell(15, 3, 3062);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateRewardsTable')
+data.setCell(16, 2, 'com.bryne.qa.testcases.DashboardPageTest')
+data.setCell(16, 3, 1940);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'LoginLogoTest')
+data.setCell(17, 2, 'com.bryne.qa.testcases.LoginPageTest')
+data.setCell(17, 3, 148);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'LoginSubHeaderTest')
+data.setCell(18, 2, 'com.bryne.qa.testcases.LoginPageTest')
+data.setCell(18, 3, 64);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateTitle')
+data.setCell(19, 2, 'com.bryne.qa.testcases.MyInfoPageTest')
+data.setCell(19, 3, 55);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'WithoutOTPTest')
+data.setCell(20, 2, 'com.bryne.qa.testcases.OtpPageTest')
+data.setCell(20, 3, 46);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'LoginTitleTest')
+data.setCell(21, 2, 'com.bryne.qa.testcases.LoginPageTest')
+data.setCell(21, 3, 20);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validateUpdateFieldsTest')
+data.setCell(22, 2, 'com.bryne.qa.testcases.UpdateDetailsPageTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'validateUpdateFieldsTest')
+data.setCell(23, 2, 'com.bryne.qa.testcases.UpdateDetailsPageTest')
+data.setCell(23, 3, 0);
+window.suiteTableData['Bryne_Microsite_Test_Automaton_Suite']= { tableData: data, tableDiv: 'times-div-Bryne_Microsite_Test_Automaton_Suite'}
 return data;
 }
               </script>
               <span class="suite-total-time">Total running time: 1 minutes</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <div id="times-div-Bryne_Microsite_Test_Automaton_Suite">
+              </div> <!-- times-div-Bryne_Microsite_Test_Automaton_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Bryne_Microsite_Test_Automaton_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Bryne Microsite Test Automaton Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Bryne_Microsite_Test_Automaton_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Bryne_Microsite_Test_Automaton_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.bryne.qa.testcases.UpdateDetailsPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.bryne.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</span>
-                <span class="method-start">26329 ms</span>
+                <span class="method-name">LoginLogoTest</span>
+                <span class="method-start">10821 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">aftermath</span>
-                <span class="method-start">62473 ms</span>
+                <span class="method-start">10974 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">63751 ms</span>
+                <span class="method-start">12884 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginSubHeaderTest</span>
+                <span class="method-start">21512 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">21578 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23386 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginTest</span>
+                <span class="method-start">31953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">35394 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">37114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginTitleTest</span>
+                <span class="method-start">45373 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">45394 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bryne.qa.testcases.OtpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">48570 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateButtonEnabledTest</span>
+                <span class="method-start">57875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">62474 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">63958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">WithoutOTPTest</span>
+                <span class="method-start">72144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">72191 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bryne.qa.testcases.LandingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">73754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCheckYourStatusButtonBehavior</span>
+                <span class="method-start">83690 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">91228 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">93293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateDashboardViaLinkTest</span>
+                <span class="method-start">104558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">108585 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">110133 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateFAQSectionTest</span>
+                <span class="method-start">121516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">124849 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">126419 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateHowCanIEarnSection</span>
+                <span class="method-start">138385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">142914 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">144256 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateMyInfoViaLinkTest</span>
+                <span class="method-start">155347 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">161288 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">162767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePerksDetailsTest</span>
+                <span class="method-start">174041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">178595 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">180497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateRewardsCatalogueSection</span>
+                <span class="method-start">192549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">196819 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">198367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateWhatAreBenefitssSection</span>
+                <span class="method-start">210315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">213951 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bryne.qa.testcases.DashboardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">215591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateOrderButtonBehaviorTest</span>
+                <span class="method-start">235248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">240129 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">241959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateRedeemButtonBehaviorTest</span>
+                <span class="method-start">257623 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">264063 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">265559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateRewardsTable</span>
+                <span class="method-start">282399 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">284339 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">285951 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</span>
-                <span class="method-start">85974 ms</span>
+                <span class="method-name">validateTransactionTableBeforeAndAfterLoadMoreClick</span>
+                <span class="method-start">300759 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">aftermath</span>
-                <span class="method-start">121387 ms</span>
+                <span class="method-start">303824 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bryne.qa.testcases.MyInfoPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">304978 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateEditMyInfoButtonFunctionality</span>
+                <span class="method-start">320515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">328973 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">122750 ms</span>
+                <span class="method-start">330467 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</span>
-                <span class="method-start">145437 ms</span>
+                <span class="method-name">validateFieldValues</span>
+                <span class="method-start">347092 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">aftermath</span>
-                <span class="method-start">180599 ms</span>
+                <span class="method-start">352251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">353470 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateTitle</span>
+                <span class="method-start">369373 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">369429 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bryne.qa.testcases.UpdateDetailsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">372031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</span>
+                <span class="method-start">394623 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">424744 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">426050 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</span>
+                <span class="method-start">443816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">443849 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">443857 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUpdateFieldsTest(Abhishek, Using, 9.00000003E8, Bengaluru, Karnatka, 300023.0, Bengaluru)</span>
+                <span class="method-start">443858 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermath</span>
+                <span class="method-start">443880 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>
