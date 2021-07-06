@@ -25,7 +25,7 @@ public class LoginPageTest extends BaseClass{
 		loginPage = new LoginPage();
 	}
 
-//	@Test
+	@Test
 	public void LoginTitleTest() {
 		String title = loginPage.validateLoginPageTitle(); 
 		Assert.assertEquals(title, "Login to your account");
@@ -36,12 +36,12 @@ public class LoginPageTest extends BaseClass{
 		Assert.assertTrue(loginPage.validateLoginPageLogo());
 	}
 	
-//	@Test
+	@Test
 	public void LoginSubHeaderTest() {
 		Assert.assertEquals(loginPage.validateLoginPageSubHeader(), "Email address");
 	}
 	
-//	@Test
+	@Test
 	public void LoginTest() {
 		otpPage = loginPage.login(prop.getProperty("email"));
 		try {

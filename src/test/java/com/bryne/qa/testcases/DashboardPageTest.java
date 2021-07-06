@@ -38,7 +38,7 @@ public class DashboardPageTest extends BaseClass{
 
 	}
 
-	//	@Test
+		@Test
 	public void validateRedeemButtonBehaviorTest() {
 		Assert.assertEquals( dashboardPage.staticButtonFunction(TestUtil.REWARDS_BUTTON_TEXT), "Transactions History");	
 	}
@@ -48,7 +48,7 @@ public class DashboardPageTest extends BaseClass{
 		Assert.assertEquals( dashboardPage.staticButtonFunction(TestUtil.ORDER_PRODUCT_BUTTON_TEXT), "Transactions History");	
 	}
 
-	//	@Test
+		@Test
 	public void validateTransactionTableBeforeAndAfterLoadMoreClick() {
 		//Before Load More button Clicked
 		Assert.assertTrue(dashboardPage.loadMoreButton());
@@ -59,7 +59,7 @@ public class DashboardPageTest extends BaseClass{
 		Assert.assertEquals(dashboardPage.noOfRows(), TestUtil.NO_OF_ROWS_AFTER_LOAD_MORE_CLICK);
 	}
 
-	//	@Test
+		@Test
 	public void validateRewardsTable() {
 		Assert.assertEquals( dashboardPage.rewardsCatalogueTable(), TestUtil.NO_OF_ROWS__IN_REWARDS_CATALOG);
 	}

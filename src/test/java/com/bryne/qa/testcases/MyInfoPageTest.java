@@ -78,7 +78,7 @@ public class MyInfoPageTest extends BaseClass {
 	}
 	
 
-//	@AfterMethod
+	@AfterMethod
 	public void aftermath() {
 		driver.quit();
 	}
