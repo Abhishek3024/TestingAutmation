@@ -1,7 +1,7 @@
 # TestingAutmation
 This Is Demo Project for Automation
 
-**Tools and Technologies used: **
+**Tools and Technologies used:**
 1. Eclipse IDE
 2. Maven 
 4. Selenium WebDriver
